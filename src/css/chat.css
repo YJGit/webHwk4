@@ -1,0 +1,87 @@
+body 
+{
+	background:#cccccc;
+}
+
+.header
+{
+	left: 10px;
+	top: 10px;
+	width: 1000px;
+	height: 40px;
+	padding-left:10px;
+	font-size: 30px;
+}
+
+.inter{
+	width: auto;
+	border-bottom: 1px solid #fff;
+	margin-top: 4px;
+}
+
+#container
+{
+	left: 10px;
+	top: 20px;
+	width: 1000px;
+	height: 560px;
+}
+
+.footer
+{
+	left: 10px;
+	top: auto;
+	width:990px;
+	height: 20px;
+	font-family:"Times New Roman", Times, serif, Arial, Helvetica, sans-serif;
+	padding:10px 0 0 10px;
+}
+
+
+@keyframes up1
+{
+	0%   {top: 430px;}
+	100%  {top: 240px;}
+}
+
+@-moz-keyframes up1 /* Firefox */
+{
+	0%   {top: 430px;}
+	100%  {top: 240px;}
+}
+
+@-webkit-keyframes up1 /* Safari and Chrome */
+{
+	0%   {top: 430px;}
+	100%  {top: 240px;}
+}
+
+@-o-keyframes up1 /* Opera */
+{
+	0%   {top: 430px;}
+	100%  {top: 240px;}
+}
+
+@keyframes up2
+{
+	0%   {top: 240px;}
+	100%  {top: 50px;}
+}
+
+@-moz-keyframes up2 /* Firefox */
+{
+	0%   {top: 240px;}
+	100%  {top: 50px;}
+}
+
+@-webkit-keyframes up2 /* Safari and Chrome */
+{
+	0%   {top: 240px;}
+	100%  {top: 50px;}
+}
+
+@-o-keyframes up2 /* Opera */
+{
+	0%   {top: 240px;}
+	100%  {top: 50px;}
+}
